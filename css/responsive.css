@@ -1,0 +1,315 @@
+@media (min-width: 2000px) {
+	.container {
+		max-width: 1880px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 1999px) {
+	.container {
+		max-width: 1680px;
+		margin: auto;
+	}
+
+}
+
+@media (max-width: 1799px) {
+	.container {
+		max-width: 1500px;
+		margin: auto;
+	}
+}
+
+
+@media (max-width: 1599px) {
+	.container {
+		max-width: 1320px;
+		margin: auto;
+	}
+	
+	/*=== HEADER CONTENT ===*/
+	.header_title h1 {
+    	font-size: 7.4rem;
+	}
+}
+
+@media (max-width: 1399px) {
+
+	/*=== REUSEBLE COMPONENTS ===*/
+	.container {
+		max-width: 1140px;
+		margin: auto;
+	}
+	
+	:root {
+		--title-f-size: 5rem;
+		--p-f-size: 2.4rem;
+	}
+	
+	/*=== HEADER CONTENT ===*/
+	.header_title h1 {
+    	font-size: 5rem;
+	}
+	
+	/*=== FOOTER SECTION ===*/
+	.footer__left__text p,
+	.footer__right__text p,
+	.footer__right__text p a {
+		font-size: 2rem !important;
+	}
+
+	.footer__right__text h3 {
+		font-size: 3rem;
+	}
+
+	.copyright__text p,
+	.text__link a {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 1199px) {
+
+	/*=== REUSEBLE COMPONENTS ===*/
+	.container {
+		max-width: 960px;
+		margin: auto;
+	}
+
+	.col_lg_mb {
+		margin-bottom: 3rem;
+	}
+
+	.small__title {
+		font-size: 2.6rem;
+	}
+
+	/*=== BANNER SECTION ===*/
+	.header__small_i_mg img {
+		margin-right: 1rem;
+	}
+
+	/*=== HFEATURES & WORKS SECTION ===*/
+	.features_col_lg_mb {
+		padding-bottom: 5rem;
+	}
+
+	.box {
+		height: 30rem;
+	}
+
+	.box h3 {
+		font-size: 2.6rem;
+	}
+
+	/*=== CONTACT SECTION ===*/
+	.contactt__form__input input,
+	.contactt__form__input textarea {
+		font-size: 1.6rem;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	/*=== REUSEBLE COMPONENTS ===*/
+	.container {
+		max-width: 720px;
+		margin: auto;
+	}
+
+	.col_md_mb {
+		margin-bottom: 3rem;
+	}
+
+	/*=== HEADER SECTION ===*/
+	.menu {
+		padding: 3rem;
+		background: #fff;
+		position: absolute;
+		top: 90%;
+		left: 0;
+		right: 0;
+		max-width: 720px;
+		margin: auto;
+		z-index: 99999999999;
+		box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+	}
+
+	.menu ul li {
+		margin-right: 0rem;
+	}
+
+	.menu ul li a {
+		color: var(--primary-color);
+	}
+
+	/*= HEADER CONTENT =*/
+	.header_title {
+		margin-top: 15rem;
+	}
+
+	.haeder__img {
+		margin-top: 6rem;
+	}
+	
+	/*=== BANNER SECTION ===*/
+	.header__small_i_mg img {
+		margin-top: .8rem;
+	}
+
+	/*=== HFEATURES & WORKS SECTION ===*/
+	.features_col_md_mb {
+		padding-bottom: 5rem;
+	}
+	
+	.box {
+		height: 25rem;
+	}
+
+	/*=== CONTACT SECTION ===*/
+	.contact__form {
+		margin-top: 7rem;
+	}
+
+	.contact__title p {
+		margin-bottom: 4rem;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*=== REUSEBLE COMPONENTS ===*/
+	.container {
+		max-width: 540px;
+		margin: auto;
+	}
+
+	section {
+		padding: 8rem 0;
+	}
+
+	.row__mt {
+		margin-top: 7rem;
+	}
+
+	.col_sm_mb {
+		margin-bottom: 3rem;
+	}
+
+	:root {
+		--title-f-size: 4rem;
+		--p-f-size: 2.2rem;
+	}
+
+	.btn__circle {
+		font-size: 1.8rem;
+	}
+
+	/*=== HEADER SECTION ===*/
+	.menu {
+		max-width: 540px;
+	}
+	
+	.header_title h1 {
+		font-size: 4rem;
+	}
+	
+	/*=== BANNER SECTION ===*/
+	.header__small_i_mg img {
+		margin-top: .6rem;
+	}
+	
+	/*=== HFEATURES & WORKS SECTION ===*/
+	.features_col_sm_mb {
+		padding-bottom: 5rem;
+	}
+	
+	.pricing__box h3 {
+		font-size: 3.2rem;
+	}
+	/*=== CONTACT SECTION ===*/
+	.contact__section {
+		padding-bottom: 1.5rem;
+	}
+
+	.contact__title h2 {
+		font-size: 4rem;
+	}
+
+	.contact__title ul li a {
+		font-size: 2rem;
+	}
+
+	/*=== FOOTER SECTION ===*/
+	.footer__col__2 {
+		margin-top: 6rem;
+	}
+
+	.footer__row {
+		padding-bottom: 4rem;
+	}
+
+	.footer__left__text p,
+	.footer__right__text p,
+	.footer__right__text p a {
+		font-size: 1.8rem !important;
+	}
+
+	.footer__right__text h3 {
+		font-size: 2.8rem;
+	}
+
+	.copyright__text p,
+	.text__link a {
+		font-size: 1.6rem;
+	}
+}
+
+@media (max-width: 575px) {
+
+	/*=== REUSEBLE COMPONENTS ===*/
+	.container,
+	.container-fluid {
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	section {
+		padding: 6rem 0;
+	}
+
+	.col_mobail_mb {
+		margin-bottom: 3rem;
+	}
+	
+	:root {
+		--title-f-size: 3.8rem;
+	}
+
+	/*=== HEADER SECTION ===*/
+	.menu {
+		width: 100%;
+	}
+	
+	.header_title h1 {
+		font-size: 3.4rem;
+	}
+
+	.header_title span {
+		font-size: 2rem;
+	}
+	
+	/*=== HFEATURES & WORKS SECTION ===*/
+	.features_col_mobail_mb {
+		padding-bottom: 5rem;
+	}
+	
+	/*=== CONTACT SECTION ===*/
+	.contact__section {
+		padding-bottom: 0rem;
+	}
+}

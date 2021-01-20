@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: 'Poligon-Bold';
+    src: url('Poligon-Bold.woff2') format('woff2'),
+        url('Poligon-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poligon-Medium';
+    src: url('Poligon-Medium.woff2') format('woff2'),
+        url('Poligon-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poligon-Regular';
+    src: url('Poligon-Regular.woff2') format('woff2'),
+        url('Poligon-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
